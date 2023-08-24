@@ -12,6 +12,8 @@ void Insert(Node **root,int data){
 	Node *newNode = new Node;
 	(*newNode).data = data;
 	(*newNode).next = nullptr;
+	
+	
 
 	if(!*root){
 		*root = newNode;	
@@ -69,8 +71,9 @@ void PrintRecursive(Node **root){
 	}
 
 }
-	
+
 void PrintReverse(Node *root) {
+	
 		if (!root) {
 			return; 
 		}
@@ -82,28 +85,9 @@ void PrintReverse(Node *root) {
 		cout << root->data << endl;
 }
 	
-void DeleteDuplicates(Node** root) {
-	if (!*root) {
-		cout << "Lista vacia" << endl;
-		return;
-	}
-	
-	Node* current = *root;
-	
-	while (current != nullptr && current->next != nullptr) {
-		if (current->data == current->next->data) {
-			Node* duplicate = current->next;
-			current->next = current->next->next;
-			delete duplicate;
-		} else {
-			current = current->next;
-		}
-	}
-}
 
-void alternate(Node **head1,Node **head2){
-	
-}
+
+
 	
 void ShowList(Node **root){
 	
@@ -121,7 +105,7 @@ void ShowList(Node **root){
 }
 
 	
-	
+// reverse list	
 
 int main(int argc, char *argv[]) {
 	
@@ -135,7 +119,7 @@ int main(int argc, char *argv[]) {
 	Insert(&root,2);
 	Insert(&root,-1);
 
-	DeleteDuplicates(&root);	
+
 	PrintReverse(root);
 
 	
