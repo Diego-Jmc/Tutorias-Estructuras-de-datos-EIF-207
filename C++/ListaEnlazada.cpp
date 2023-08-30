@@ -86,7 +86,26 @@ void PrintReverse(Node *root) {
 }
 	
 
+Node * EnesimoFromFinal(Node* root,int n){
+	
+	Node *temp = root;
+	Node *temp2 = temp;
+	int cont = 1;
+	
+	while(temp->next){
+		
+		if(cont >= n && temp->next){
+			temp2 = temp2->next;
 
+		}
+		
+		cont ++ ;
+		temp = temp->next;
+		
+	}
+	
+	return temp2;
+}
 
 void ShowList(Node **root){
 	
@@ -114,12 +133,16 @@ int main(int argc, char *argv[]) {
 	Insert(&root,2);
 	Insert(&root,-5);
 	Insert(&root,4);
-	Insert(&root,65);
-	Insert(&root,2);
-	Insert(&root,-1);
 
-
-	PrintReverse(root);
+	
+	Node *n = EnesimoFromFinal(root,1);
+	
+	if(n!=nullptr)
+		cout<<n->data<<endl;
+	else
+		cout<<"No se encontro n-esimo"<<endl;
+	
+	
 
 	
 	return 0;
