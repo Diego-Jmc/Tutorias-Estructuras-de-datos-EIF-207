@@ -1,0 +1,21 @@
+# ninja log v5
+3	258	7157290549157150	CMakeFiles/Algoritmos_de_ordeamiento.dir/VectorINT.cpp.obj	d018c0a1ae19e0e3
+1	338	7157290442044090	CMakeFiles/Algoritmos_de_ordeamiento.dir/main.cpp.obj	27ac0b9ce10874bb
+258	335	7157290549887146	Algoritmos_de_ordeamiento.exe	3269cf91dfc9bb0d
+2	276	7157296079731112	CMakeFiles/Algoritmos_de_ordeamiento.dir/main.cpp.obj	27ac0b9ce10874bb
+11	278	7157296079751107	CMakeFiles/Algoritmos_de_ordeamiento.dir/Sorting.cpp.obj	84d9ddeaf46014b3
+7	284	7157296079821120	CMakeFiles/Algoritmos_de_ordeamiento.dir/VectorINT.cpp.obj	d018c0a1ae19e0e3
+285	362	7157296080561085	Algoritmos_de_ordeamiento.exe	843adf50d494a169
+2	248	7157296209223608	CMakeFiles/Algoritmos_de_ordeamiento.dir/main.cpp.obj	27ac0b9ce10874bb
+248	321	7157296209923606	Algoritmos_de_ordeamiento.exe	843adf50d494a169
+2	258	7157296944594655	CMakeFiles/Algoritmos_de_ordeamiento.dir/main.cpp.obj	27ac0b9ce10874bb
+258	352	7157296945504617	Algoritmos_de_ordeamiento.exe	843adf50d494a169
+2	245	7157297278509697	CMakeFiles/Algoritmos_de_ordeamiento.dir/main.cpp.obj	27ac0b9ce10874bb
+245	322	7157297279239703	Algoritmos_de_ordeamiento.exe	843adf50d494a169
+2	289	7157300304751664	CMakeFiles/Algoritmos_de_ordeamiento.dir/main.cpp.obj	27ac0b9ce10874bb
+6	290	7157300304751664	CMakeFiles/Algoritmos_de_ordeamiento.dir/Sorting.cpp.obj	84d9ddeaf46014b3
+10	296	7157300304831673	CMakeFiles/Algoritmos_de_ordeamiento.dir/VectorINT.cpp.obj	d018c0a1ae19e0e3
+296	371	7157300305571672	Algoritmos_de_ordeamiento.exe	843adf50d494a169
+1	577	7157411357093533	CMakeFiles/Algoritmos_de_ordeamiento.dir/main.cpp.obj	27ac0b9ce10874bb
+6	586	7157411357173527	CMakeFiles/Algoritmos_de_ordeamiento.dir/Sorting.cpp.obj	84d9ddeaf46014b3
+586	828	7157411359585679	Algoritmos_de_ordeamiento.exe	843adf50d494a169
