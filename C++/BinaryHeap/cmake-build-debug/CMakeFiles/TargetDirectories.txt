@@ -1,0 +1,3 @@
+C:/Users/diego/Desktop/Tutorias ED/Tutorias-Estructuras-de-datos-EIF-207/C++/BinaryHeap/cmake-build-debug/CMakeFiles/BinaryHeap.dir
+C:/Users/diego/Desktop/Tutorias ED/Tutorias-Estructuras-de-datos-EIF-207/C++/BinaryHeap/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/diego/Desktop/Tutorias ED/Tutorias-Estructuras-de-datos-EIF-207/C++/BinaryHeap/cmake-build-debug/CMakeFiles/rebuild_cache.dir

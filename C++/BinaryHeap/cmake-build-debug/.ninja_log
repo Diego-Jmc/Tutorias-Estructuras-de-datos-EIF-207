@@ -1,0 +1,17 @@
+# ninja log v5
+1	318	7175393043675447	CMakeFiles/BinaryHeap.dir/main.cpp.obj	3e4d70dc232a30b6
+5	328	7175393043765425	CMakeFiles/BinaryHeap.dir/MaxHeap.cpp.obj	56c0f2c87df966f7
+328	482	7175393045285438	BinaryHeap.exe	fca2ca9e2c2c0e38
+2	248	7175394016224088	CMakeFiles/BinaryHeap.dir/main.cpp.obj	3e4d70dc232a30b6
+249	324	7175394016964090	BinaryHeap.exe	fca2ca9e2c2c0e38
+1	234	7175394350535599	CMakeFiles/BinaryHeap.dir/main.cpp.obj	3e4d70dc232a30b6
+235	332	7175394351454956	BinaryHeap.exe	fca2ca9e2c2c0e38
+2	282	7175394675600235	CMakeFiles/BinaryHeap.dir/MaxHeap.cpp.obj	56c0f2c87df966f7
+283	362	7175394676370242	BinaryHeap.exe	fca2ca9e2c2c0e38
+2	238	7175394912950938	CMakeFiles/BinaryHeap.dir/main.cpp.obj	3e4d70dc232a30b6
+238	321	7175394913730944	BinaryHeap.exe	fca2ca9e2c2c0e38
+3	243	7175394998324649	CMakeFiles/BinaryHeap.dir/main.cpp.obj	3e4d70dc232a30b6
+243	330	7175394999144660	BinaryHeap.exe	fca2ca9e2c2c0e38
+7	425	7175532842033077	CMakeFiles/BinaryHeap.dir/MaxHeap.cpp.obj	56c0f2c87df966f7
+2	426	7175532842033077	CMakeFiles/BinaryHeap.dir/main.cpp.obj	3e4d70dc232a30b6
+426	646	7175532844153085	BinaryHeap.exe	fca2ca9e2c2c0e38
