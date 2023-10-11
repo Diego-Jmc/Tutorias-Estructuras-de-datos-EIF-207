@@ -10,11 +10,11 @@ class Node:
 
 
 
+
 class BST:
 
     def __init__(self):
         self.root = None
-
 
     def insert_node(self,data,root):
 
@@ -113,6 +113,64 @@ class BST:
     def print_in_order(self):
         self.in_order(self.root)
 
+
+
+    def findIterative(self,val):
+        if self.root.data == val:
+            return self.root
+
+        tempRoot = self.root
+
+        while(True):
+
+            if tempRoot is None:
+                return None
+
+            if val > tempRoot.data:
+                tempRoot = tempRoot.right
+                if tempRoot.data == val:
+                    return tempRoot
+
+            if val < tempRoot.data:
+                tempRoot = tempRoot.left
+                if tempRoot.data == val:
+                    return tempRoot
+
+    def  max(self,root):
+        if root.right is None:
+            return root
+        else:
+            return self.max(root.right)
+
+    def get_max(self):
+        return self.max(self.root)
+
+    def remove(self,root,val):
+        # en caso de que la raiz sea None
+        if root is None:
+            return None
+
+        # Primero hay que buscar el nodo a eliminar
+
+        if val > root.data:
+            root.right = self.remove(root.right,val)
+        elif val < root.data:
+            root.left = self.remove(root.left,val)
+        else:
+            # CASO 1 -> el nodo es una hoja
+            if root.left is None and root.right is None:
+                root = None
+            elif root.left is None:
+                root = root.right
+            elif root.right is None:
+                root = root.left
+            else:
+                temp = self.max(root.left)
+                root.data = temp.data
+                root.left = self.remove(root.left,temp.data)
+
+        return root
+
 tree = BST()
 
 tree.insert(30)
@@ -124,14 +182,14 @@ tree.insert(40)
 tree.insert(31)
 tree.insert(70)
 
-print("IN-ORDER")
+
 tree.print_in_order()
 
-print("POST ORDEN")
-tree.print_post_orden()
+print("Despues de borrar (31) , (5)")
 
-print("PRE ORDEN")
-tree.print_pre_orden()
+tree.remove(tree.root,31)
+tree.remove(tree.root,5)
 
-print("Altura del arbol (Empezando en 1) :")
-print(tree.get_height())
+tree.print_in_order()
+
+
